@@ -113,3 +113,44 @@ if (openPrologue && prologueModal && closePrologue) {
     });
 
 }
+const openChapter1 = document.getElementById("openChapter1");
+const chapter1Modal = document.getElementById("chapter1Modal");
+const closeChapter1 = document.getElementById("closeChapter1");
+
+if (openChapter1 && chapter1Modal && closeChapter1) {
+    openChapter1.addEventListener("click", () => {
+        chapter1Modal.style.display = "flex";
+    });
+
+    closeChapter1.addEventListener("click", () => {
+        chapter1Modal.style.display = "none";
+    });
+}
+// CAPÍTULO 2
+const openChapter2 = document.getElementById("openChapter2");
+const chapter2Modal = document.getElementById("chapter2Modal");
+const closeChapter2 = document.getElementById("closeChapter2");
+
+if (openChapter2 && chapter2Modal && closeChapter2) {
+    openChapter2.addEventListener("click", () => {
+        chapter2Modal.style.display = "flex";
+    });
+
+    closeChapter2.addEventListener("click", () => {
+        chapter2Modal.style.display = "none";
+    });
+}
+// CAPÍTULO 3
+const openChapter3 = document.getElementById("openChapter3");
+const chapter3Modal = document.getElementById("chapter3Modal");
+const closeChapter3 = document.getElementById("closeChapter3");
+
+if (openChapter3 && chapter3Modal && closeChapter3) {
+    openChapter3.addEventListener("click", () => {
+        chapter3Modal.style.display = "flex";
+    });
+
+    closeChapter3.addEventListener("click", () => {
+        chapter3Modal.style.display = "none";
+    });
+}
